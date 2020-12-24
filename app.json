@@ -3,6 +3,13 @@
     "name": "RapJeu",
     "slug": "RapJeu",
     "version": "1.0.0",
+    "hooks": {
+      "postPublish" : [
+        {
+          "file": "expo-error-log"
+        }
+      ]
+    },
     "orientation": "portrait",
     "icon": "./app/assets/icon.png",
     "splash": {
@@ -21,7 +28,7 @@
     },
     "android": {
       "package": "com.bsa.rapjeu",
-      "versionCode": "1.0.0",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./app/assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
