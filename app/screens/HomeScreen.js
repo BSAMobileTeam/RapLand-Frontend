@@ -9,7 +9,7 @@ function HomeScreen(props) {
         <Screen>
             <View style={styles.container}>
                 <Text>Open up App.js to start working on your app!</Text>
-                <Button title='Ceci est un boutton' onPress={() => console.log("Button pressed")}/>
+                <Button title='Ceci est un bouton' onPress={() => console.log("Button pressed")}/>
             </View>
         </Screen>
     );

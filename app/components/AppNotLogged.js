@@ -5,11 +5,14 @@ import { Text } from '../components/index';
 import colors from '../config/colors';
 
 
-function AppNotLogged({ onPress }) {
+function AppNotLogged({ onConnect, onRegister }) {
     return (
         <View style={styles.container}>
-            <TouchableOpacity style={styles.button} onPress={onPress}>
+            <TouchableOpacity style={styles.button} onPress={onConnect}>
                 <Text style={styles.text}>Se connecter</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.button} onPress={onRegister}>
+                <Text style={styles.text}>S'enregister</Text>
             </TouchableOpacity>
         </View>
     );
@@ -22,13 +25,11 @@ const styles = StyleSheet.create({
         minHeight: 40,
         backgroundColor: colors.medium,
         alignItems: 'center',
+        justifyContent: 'space-between',
     },
     button: {
         backgroundColor: colors.medium,
-        justifyContent: 'center',
-        alignItems: 'center',
-        alignSelf: 'center',
-        width: '100%',
+        paddingHorizontal: 10,
         marginVertical: 10,
     },
     text: {

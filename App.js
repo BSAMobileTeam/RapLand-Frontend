@@ -8,7 +8,7 @@ export default function App() {
 
   return (
     <Screen>
-      {isLogged ? <AppLogged username='Kasket' experience='300' /> : <AppNotLogged onPress={() => setIsLogged(true)}/>}
+      {isLogged ? <AppLogged username='Kasket' experience='300' /> : <AppNotLogged onRegister={() => setIsLogged(true)} onRegister={() => console.log("register")}/>}
       <HomeScreen />
     </Screen>
   );

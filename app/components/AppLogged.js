@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
         minHeight: 40,
         backgroundColor: colors.medium,
         justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
     },
     username: {
         paddingLeft: 5,
