@@ -1,8 +1,7 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 
-import colors from '../config/colors';
-import { Text } from '../components/index';
+import Text from './AppText';
 import defaultStyles from '../config/styles';
 
 function AppLogged({ username, experience}) {
@@ -19,7 +18,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         width: '100%',
         minHeight: 40,
-        backgroundColor: colors.medium,
+        backgroundColor: defaultStyles.colors.medium,
         justifyContent: 'space-between',
         alignItems: 'center',
     },
@@ -28,7 +27,7 @@ const styles = StyleSheet.create({
     },
     experience: {
         paddingRight: 5,
-        color: colors.danger,
+        color: defaultStyles.colors.danger,
     }
 });
 
