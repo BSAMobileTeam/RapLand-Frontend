@@ -1,8 +1,7 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 
-import { Screen, Text, Button } from '../components/index';
-import colors from '../config/colors';
+import { Screen, Text, Button, SelectionnableButton } from '../components/index';
 
 function HomeScreen(props) {
     return (
@@ -10,6 +9,7 @@ function HomeScreen(props) {
             <View style={styles.container}>
                 <Text>Open up App.js to start working on your app!</Text>
                 <Button title='Ceci est un bouton' onPress={() => console.log("Button pressed")}/>
+                <SelectionnableButton title='Bouton selectionnable'/>
             </View>
         </Screen>
     );
