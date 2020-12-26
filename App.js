@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import { useNetInfo } from '@react-native-community/netinfo';
 
 import HomeScreen from './app/screens/HomeScreen';
 import { Screen, AppLogged, AppNotLogged } from './app/components/index';
-import NetInfo from "@react-native-community/netinfo";
 
 export default function App() {
   const [isLogged, setIsLogged] = useState(false);
+  const netInfo = useNetInfo();
 
   return (
     <Screen>
