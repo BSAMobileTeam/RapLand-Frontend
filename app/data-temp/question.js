@@ -29,23 +29,13 @@ const questions = [
         "id": 3,
         "theme": "rap_fr",
         "mode": "solo",
-        "type_question": "unique",
-        "question": {
-            "intitule": "Combien y a-t-il de rappeurs dans 13 Organisé",
-            "reponse": "50",
-        },
-    },
-    {
-        "id": 4,
-        "theme": "rap_fr",
-        "mode": "solo",
         "type_question": "fermee",
         "question": {
-            "intitule": "Quel Media Rap a sorti un album en 2020",
+            "intitule": "Combien y a-t-il de rappeurs dans 13 Organisé",
             "choix": [
-                "RAPLUME", "KULTURE", "BOOSKA-P", "RAPUNCHLINE",
+                "48", "50", "52", "54",
             ],
-            "reponse": "RAPLUME",
+            "reponse": "50",
         },
     },
     {
@@ -100,6 +90,175 @@ const questions = [
             "reponse": [
                 "Kaaris", "Fianso",
             ],
+        },
+    },
+    {
+        "id": 8,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Quel rappeur a ouvert le Barlou Burger",
+            "choix": [
+                "MHD", "Georgio", "Seth Gueko", "Youssoupha",
+            ],
+            "reponse": "Seth Gueko",
+        },
+    },
+    {
+        "id": 9,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "A quel film fait référence le nom du média Booska-P",
+            "choix": [
+                "Scarface", "La Cité de Dieu", "La Haine", "Banlieu 13",
+            ],
+            "reponse": "La Cité de Dieu",
+        },
+    },
+    {
+        "id": 10,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Qui est à l'origine de cette phrase : « J’ai pris en stop la dame blanche au virage, j’l’ai mise en cloque »",
+            "choix": [
+                "Despo Rutti", "Alkapote", "Seth Gueko", "S.Pri Noir",
+            ],
+            "reponse": "Alkapote",
+        },
+    },
+    {
+        "id": 11,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Combien d'albums Jul a-t-il sortit",
+            "choix": [
+                "18", "19", "20", "21",
+            ],
+            "reponse": "21",
+        },
+    },
+    {
+        "id": 12,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Combien de sons compte « Chaise Pliante (Edition Deluxe) » d'Hatik",
+            "choix": [
+                "11", "29", "48", "56",
+            ],
+            "reponse": "48",
+        },
+    },
+    {
+        "id": 13,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "A quelle mannequin Ninho fait-il référence dans le morceau « Zipette »",
+            "choix": [
+                "Caroline de Maigret", "Camille Row", "Carla Bruni", "Marion Cotillard",
+            ],
+            "reponse": "Carla Bruni",
+        },
+    },
+    {
+        "id": 14,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Quel beatmaker est connue pour être le second du rappeur Vald",
+            "choix": [
+                "Flem", "Junior Alaprod", "Seezy", "Pyroman",
+            ],
+            "reponse": "Seezy",
+        },
+    },
+    {
+        "id": 15,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Quel rappeur a été comdamné à de la prison avec surcis pour avoir tourné un clip sur l'autoroute ",
+            "choix": [
+                "Koba LaD", "Sofiane", "MHD", "SCH",
+            ],
+            "reponse": "Sofiane",
+        },
+    },
+    {
+        "id": 16,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Quel rappeur a sortit le légendaire morceau « Sur La Tete De Ma Mère »",
+            "choix": [
+                "Seyfu", "Tragédie", "La Fouine", "L'Algérino",
+            ],
+            "reponse": "L'Algérino",
+        },
+    },
+    {
+        "id": 17,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Quel acteur se cache sous le pseudonyme du rappeur « Fatal »",
+            "choix": [
+                "Franck Dubosc", "Gilles Lellouche", "Michaël Youn", "Max Boublil",
+            ],
+            "reponse": "Michaël Youn",
+        },
+    },
+    {
+        "id": 18,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Qui est à l'origine des morceaux « Journal Perso »",
+            "choix": [
+                "Maes", "Vald", "Diddie Trix", "Nekfeu",
+            ],
+            "reponse": "Vald",
+        },
+    },
+    {
+        "id": 19,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Combien de « Freestyle Ténébreux » Koba LaD a-t-il sortit",
+            "choix": [
+                "3", "4", "5", "6",
+            ],
+            "reponse": "5",
+        },
+    },
+    {
+        "id": 20,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Qui est le précurseur de l'Afro Trap en France",
+            "choix": [
+                "Y du V", "Madrane", "Niska", "MHD",
+            ],
+            "reponse": "MHD",
         },
     },
 ]
