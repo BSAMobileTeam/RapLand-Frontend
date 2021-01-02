@@ -176,7 +176,7 @@ const questions = [
         "mode": "solo",
         "type_question": "fermee",
         "question": {
-            "intitule": "Quel beatmaker est connue pour être le second du rappeur Vald",
+            "intitule": "Quel beatmaker est connu pour ses collaborations avec le rappeur Vald",
             "choix": [
                 "Flem", "Junior Alaprod", "Seezy", "Pyroman",
             ],
@@ -259,6 +259,73 @@ const questions = [
                 "Y du V", "Madrane", "Niska", "MHD",
             ],
             "reponse": "MHD",
+        },
+    },
+    {
+        "id": 21,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Lequel de ces rappeurs n'est pas français",
+            "choix": [
+                "Frenetik", "Redk", "Sadek", "Da Uzi",
+            ],
+            "reponse": "Frenetik",
+        },
+    },
+    {
+        "id": 22,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Quel groupe culte de rap français a été condamné à 3 mois de prison ferme",
+            "choix": [
+                "IAM", "Suprême NTM", "Sages Poètes de la rue", "Fonky Family",
+            ],
+            "reponse": "Suprême NTM",
+        },
+    },
+    {
+        "id": 23,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "multiple",
+        "question": {
+            "intitule": "Quels rappeurs ont eu un concert annulé à cause de féministes",
+            "choix": [
+                "Orelsan", "Lorenzo", "Lefa", "Seth Gueko",
+            ],
+            "reponse": [
+                "Orelsan", "Seth Gueko",
+            ],
+        },
+    },
+    {
+        "id": 24,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Avec qui Nakk Mendosa n'a-t-il jamais fait de featuring",
+            "choix": [
+                "Soprano", "Médine", "Lino", "Dixon",
+            ],
+            "reponse": "Soprano",
+        },
+    },
+    {
+        "id": 25,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Qui n'appraît pas dans le clip « Zidane » de 13 Block",
+            "choix": [
+                "Da Uzi", "Kalash Criminel", "Ixzo", "Dabs",
+            ],
+            "reponse": "Soprano",
         },
     },
 ]
