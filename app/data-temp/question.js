@@ -328,6 +328,136 @@ const questions = [
             "reponse": "Soprano",
         },
     },
+    {
+        "id": 26,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Qui est le professeur Chen du rap français",
+            "choix": [
+                "Alkapote", "Freeze Corleone", "Nekfeu", "Damso",
+            ],
+            "reponse": "Freeze Corleone",
+        },
+    },
+    {
+        "id": 27,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "D'où viens Maes",
+            "choix": [
+                "Évry", "Roubaix", "Sevran", "Toulouse",
+            ],
+            "reponse": "Sevran",
+        },
+    },
+    {
+        "id": 28,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Quel est l'album avec le plus de certifications",
+            "choix": [
+                "PNL - Dans la légende", "Damso - Ispeité", "Booba - Trône", "Nekfeu - Cyborg",
+            ],
+            "reponse": "Damso - Ispeité",
+        },
+    },
+    {
+        "id": 29,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Quel rappeur a vendu le plus d'albums",
+            "choix": [
+                "Ninho", "Gims", "Nekfeu", "Jul",
+            ],
+            "reponse": "Jul",
+        },
+    },
+    {
+        "id": 30,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Qui a dit « La banlieu influence Paname, Paname influence le monde »",
+            "choix": [
+                "Lartiste", "Youssoupha", "Médine", "Alivor",
+            ],
+            "reponse": "Médine",
+        },
+    },
+    {
+        "id": 31,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Qui n'est pas présent dans « Grand Paris 2 » de Médine",
+            "choix": [
+                "Pirate", "Rémy", "Larry", "Sofiane",
+            ],
+            "reponse": "Sofiane",
+        },
+    },
+    {
+        "id": 32,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Qui est l'auteur de « Molotov 4 »",
+            "choix": [
+                "Seyfu", "Salif", "Sat", "Rohff",
+            ],
+            "reponse": "Seyfu",
+        },
+    },
+    {
+        "id": 32,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Quel groupe viens du département 94",
+            "choix": [
+                "Psy 4 de la Rime", "Mafia k'1 Fry", "Sexion d'Assaut", "Lunatic",
+            ],
+            "reponse": "Mafia k'1 Fry",
+        },
+    },
+    {
+        "id": 33,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Qui a sorti l'album « Perdu d'avance » en 2009",
+            "choix": [
+                "Nessbeal", "La Fouine", "Orelsan", "Busta Flex",
+            ],
+            "reponse": "Orelsan",
+        },
+    },
+    {
+        "id": 34,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Quel rappeur nomme-t-on le « Sauce God »",
+            "choix": [
+                "Hamza", "Kekra", "Laylow", "Kalash",
+            ],
+            "reponse": "Hamza",
+        },
+    },
 ]
 
 const addQuestion = (question) => {
