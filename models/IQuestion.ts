@@ -4,7 +4,7 @@ export default interface IQuestion {
     type_question: string,
     question: {
         intitule: string,
-        choix: string | string[],
+        choix: string[],
         reponse: string | string[]
     }
 }

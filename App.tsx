@@ -1,28 +1,63 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { Provider as PaperProvider, Title } from 'react-native-paper'
+import React, { Component } from 'react';
+import { StyleSheet } from 'react-native';
+import { 
+    Provider as PaperProvider,
+    Button
+} from 'react-native-paper'
 import QuestionPaper from './app/components/QuestionPaper'
 import {
     getRandomQuestion
 } from './data-temp/question'
+import IQuestion from './models/IQuestion'
 
-export default function App() {
-    return (
-        <PaperProvider>
-            <QuestionPaper
-                question={getRandomQuestion()}
-            />
-     
-        </PaperProvider>
-  );
+interface IAppState {
+    question: IQuestion
+}
+
+export default class App extends Component<{}, IAppState> {
+    constructor (props) {
+        super(props)
+        this.state = {
+            question: getRandomQuestion()
+        }
+    }
+
+    render() {
+        const { question } = this.state
+        return (
+            <PaperProvider>
+                <QuestionPaper
+                    style={styles.questionPaper}
+                    question={question}
+                />
+                <Button
+                    mode="contained"
+                    onPress={() => {
+                        this.setState({
+                            question: getRandomQuestion()
+                        })
+                    }}
+                    style={{
+                        width: '50%',
+                        borderRadius: 20,
+                        marginLeft: '25%',
+                        marginTop: 60
+                    }}
+                >
+                    Suivant
+                </Button>
+            </PaperProvider>
+        )
+    }
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center',
+    questionPaper: {
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        marginTop: '20%'
     },
+    button: {
+        
+    }
 });
