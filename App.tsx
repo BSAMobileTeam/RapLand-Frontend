@@ -4,12 +4,11 @@ import {
     Provider as PaperProvider,
     Button
 } from 'react-native-paper';
-import QuestionPaper from './app/components/QuestionPaper';
 import {
     getRandomQuestion
-} from './data-temp/question';
-import IQuestion from './models/IQuestion';
-import { Screen } from './app/component/index';
+} from './app/data-temp/question';
+import IQuestion from './app/models/IQuestion';
+import { Screen, QuestionPaper } from './app/components/index';
 
 interface IAppState {
     question: IQuestion
