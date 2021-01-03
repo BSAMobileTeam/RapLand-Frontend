@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import React, { Component } from 'react';
 import { 
     StyleSheet,
@@ -10,7 +9,7 @@ import {
     Button,
     Surface
 } from 'react-native-paper'
-import IQuestion from '../../models/IQuestion'
+import IQuestion from '../models/IQuestion'
 
 interface IQuestionPaperProps {
     style: StyleProp<ViewStyle>,
