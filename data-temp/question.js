@@ -467,13 +467,16 @@ const addQuestion = (question) => {
 
 const getQuestions = () => questions;
 
-const getQuestion = (id) => questions.find((question) => question.id === id);
+const getQuestion = id => questions.find((question) => question.id === id);
 
-const filterQuestions = (predicate) => questions.filter(predicate);
+const filterQuestions = predicate => questions.filter(predicate);
+
+const getRandomQuestion = () => questions[Math.floor(Math.random() * questions.length)];
 
 module.exports = {
     addQuestion,
     getQuestions,
     getQuestion,
     filterQuestions,
+    getRandomQuestion
 };
