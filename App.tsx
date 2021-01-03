@@ -26,7 +26,7 @@ export default class App extends Component<{}, IAppState> {
     render() {
         const { question } = this.state
         return (
-            <Screen>
+            <Screen style={styles.container}>
               <PaperProvider>
                   <QuestionPaper
                       style={styles.questionPaper}
@@ -39,17 +39,31 @@ export default class App extends Component<{}, IAppState> {
                               question: getRandomQuestion()
                           })
                       }}
-                      style={{
-                          width: '50%',
-                          borderRadius: 20,
-                          marginLeft: '25%',
-                          marginTop: 60
-                      }}
+                      style={styles.button}
                   >
-                      Suivant
                   </Button>
               </PaperProvider>
             </Screen>
         )
     }
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  questionPaper: {
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    marginTop: '20%'
+  },
+  button: {
+    width: '50%',
+    borderRadius: 20,
+    marginLeft: '25%',
+    marginTop: 60
+  }
+});
