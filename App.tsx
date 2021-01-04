@@ -3,12 +3,12 @@ import { StyleSheet } from 'react-native';
 import { 
     Provider as PaperProvider,
     Button
-} from 'react-native-paper'
-import QuestionPaper from './app/components/QuestionPaper'
+} from 'react-native-paper';
 import {
     getRandomQuestion
-} from './data-temp/question'
-import IQuestion from './models/IQuestion'
+} from './app/data-temp/question';
+import IQuestion from './app/models/IQuestion';
+import { Screen, QuestionPaper } from './app/components/index';
 
 interface IAppState {
     question: IQuestion
@@ -25,39 +25,44 @@ export default class App extends Component<{}, IAppState> {
     render() {
         const { question } = this.state
         return (
-            <PaperProvider>
-                <QuestionPaper
-                    style={styles.questionPaper}
-                    question={question}
-                />
-                <Button
-                    mode="contained"
-                    onPress={() => {
-                        this.setState({
-                            question: getRandomQuestion()
-                        })
-                    }}
-                    style={{
-                        width: '50%',
-                        borderRadius: 20,
-                        marginLeft: '25%',
-                        marginTop: 60
-                    }}
-                >
-                    Suivant
-                </Button>
-            </PaperProvider>
+            <Screen style={styles.container}>
+              <PaperProvider>
+                  <QuestionPaper
+                      style={styles.questionPaper}
+                      question={question}
+                  />
+                  <Button
+                      mode="contained"
+                      onPress={() => {
+                          this.setState({
+                              question: getRandomQuestion()
+                          })
+                      }}
+                      style={styles.button}
+                  >
+                  </Button>
+              </PaperProvider>
+            </Screen>
         )
     }
-}
+};
 
 const styles = StyleSheet.create({
-    questionPaper: {
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        marginTop: '20%'
-    },
-    button: {
-        
-    }
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  questionPaper: {
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    marginTop: '20%'
+  },
+  button: {
+    width: '50%',
+    borderRadius: 20,
+    marginLeft: '25%',
+    marginTop: 60
+  }
 });
