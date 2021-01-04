@@ -8,7 +8,6 @@ import {
     Paragraph,
     Button,
     Surface,
-    Text
 } from 'react-native-paper'
 import IQuestion from '../../models/IQuestion'
 
@@ -31,7 +30,7 @@ export default class QuestionPaper extends Component<IQuestionPaperProps, {}> {
                     question.question.choix.map((choice: string, index: number) => (
                         <Button
                             style={styles.button}
-                            mode="contained"                            
+                            mode="contained"
                             key={index}
                             onPress={() => {}}
                         >

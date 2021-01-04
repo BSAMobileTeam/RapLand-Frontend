@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import { 
     StyleSheet,
     StyleProp,
     ViewStyle,
     SafeAreaView,
     View
-} from 'react-native';
-import Constants from 'expo-constants';
+} from 'react-native'
+import Constants from 'expo-constants'
 
 
 interface IAppScreenProps {

@@ -1,21 +1,22 @@
-import React, { Component } from 'react';
-import { StyleSheet } from 'react-native';
+import React, { Component } from 'react'
+import { StyleSheet } from 'react-native'
 import { 
     Provider as PaperProvider,
     Button
-} from 'react-native-paper';
+} from 'react-native-paper'
 import {
     getRandomQuestion
-} from './app/data-temp/question';
-import IQuestion from './app/models/IQuestion';
-import { Screen, QuestionPaper } from './app/components/index';
+} from './data-temp/question'
+import IQuestion from './models/IQuestion'
+import QuestionPaper from './app/components/QuestionPaper'
+import GameModesDisplayer from './app/components/GameModesDisplayer'
 
 interface IAppState {
     question: IQuestion
 }
 
 export default class App extends Component<{}, IAppState> {
-    constructor (props) {
+    constructor (props: {}) {
         super(props)
         this.state = {
             question: getRandomQuestion()
@@ -25,24 +26,23 @@ export default class App extends Component<{}, IAppState> {
     render() {
         const { question } = this.state
         return (
-            <Screen style={styles.container}>
-              <PaperProvider>
-                  <QuestionPaper
-                      style={styles.questionPaper}
-                      question={question}
-                  />
-                  <Button
-                      mode="contained"
-                      onPress={() => {
-                          this.setState({
-                              question: getRandomQuestion()
-                          })
-                      }}
-                      style={styles.button}
-                  >
-                  </Button>
-              </PaperProvider>
-            </Screen>
+            <PaperProvider>
+                <GameModesDisplayer/>
+                {/* <QuestionPaper
+                    style={styles.questionPaper}
+                    question={question}
+                />
+                <Button
+                    mode="contained"
+                    onPress={() => {
+                        this.setState({
+                            question: getRandomQuestion()
+                        })
+                    }}
+                    style={styles.button}
+                >
+                </Button> */}
+            </PaperProvider>
         )
     }
 };

@@ -34,6 +34,7 @@ export default class GameModePaper extends Component<IGameModePaperProps, IGameM
     render() {
         const { name, description, backgroundUrl } = this.props
         const { status } = this.state
+
         return (
             <Card>
                 <Card.Title title={name} subtitle={description} />
