@@ -25,24 +25,21 @@ export default class QuestionPaper extends Component<IQuestionPaperProps, {}> {
     render() {
         const { style, question } = this.props
         return (
-            <Surface style={styles.surface}>
-                <Text>Surface</Text>
+            <Surface style={[styles.surface, style]}>
+                <Paragraph style={styles.paragraph}>{question.question.intitule}</Paragraph>
+                {
+                    question.question.choix.map((choice: string, index: number) => (
+                        <Button
+                            style={styles.button}
+                            mode="contained"                            
+                            key={index}
+                            onPress={() => {}}
+                        >
+                            {choice}
+                        </Button>
+                    ))
+                }
             </Surface>
-            // <Surface style={[styles.surface, style]}>
-            //     {/* <Paragraph style={styles.paragraph}>{question.question.intitule}</Paragraph> */}
-            //     {/* {
-            //         question.question.choix.map((choice, index) => (
-            //             <Button
-            //                 style={styles.button}
-            //                 mode="contained"                            
-            //                 key={index}
-            //                 onPress={() => {}}
-            //             >
-            //                 {choice}
-            //             </Button>
-            //         ))
-            //     } */}
-            // </Surface>
         )
     }
 }
