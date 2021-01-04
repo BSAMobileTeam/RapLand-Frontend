@@ -11,6 +11,7 @@ import {
     Text
 } from 'react-native-paper'
 import IQuestion from '../../models/IQuestion'
+
 interface IQuestionPaperProps {
     style: StyleProp<ViewStyle>,
     question: IQuestion
