@@ -6,8 +6,8 @@ import {
 } from 'react-native-paper';
 import {
     getRandomQuestion
-} from './app/data-temp/question';
-import IQuestion from './app/models/IQuestion';
+} from './data-temp/question';
+import IQuestion from './models/IQuestion';
 import { Screen, QuestionPaper } from './app/components/index';
 
 interface IAppState {
