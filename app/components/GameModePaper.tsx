@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
+import { ImageBackground, StyleSheet } from 'react-native'
 import {
+    Button,
     Card,
     RadioButton
 } from 'react-native-paper'
@@ -20,10 +22,10 @@ export default class GameModePaper extends Component<IGameModePaperProps, IGameM
         this.state = {
             status: 'unchecked'
         }
-        this.radioButtonOnPressHandler = this.radioButtonOnPressHandler.bind(this)
+        this.onPressHandler = this.onPressHandler.bind(this)
     }
 
-    radioButtonOnPressHandler(): void {
+    onPressHandler(): void {
         const { status } = this.state
 
         this.setState({
@@ -36,17 +38,33 @@ export default class GameModePaper extends Component<IGameModePaperProps, IGameM
         const { status } = this.state
 
         return (
-            <Card>
-                <Card.Title title={name} subtitle={description} />
-                <Card.Cover source={{ uri: backgroundUrl }} />
-                <Card.Actions>
-                    <RadioButton
-                        value="this is the radio button value"
-                        status={status}
-                        onPress={this.radioButtonOnPressHandler}
-                    />
-                </Card.Actions>
-            </Card>
+                <Card
+                    style={styles.card}
+                    onPress={this.onPressHandler}
+                >
+                    {/* <Button
+                        onPress={this.onPressHandler}
+                    > */}
+                        <ImageBackground source={{ uri: backgroundUrl}} style={{width: '100%'}}>
+                            <Card.Title title={name.toUpperCase()} subtitle={description} />
+                            {/* <Card.Cover source={{ uri: backgroundUrl }} /> */}
+                            <Card.Actions>
+                                <RadioButton
+                                    value={status}
+                                    status={status}
+                                    onPress={this.onPressHandler}
+                                />
+                            </Card.Actions>
+                        </ImageBackground>
+                    {/* </Button> */}
+                </Card>
         )
     }
 }
+
+const styles = StyleSheet.create({
+    card: {
+        margin: 5,        
+        borderRadius: 45
+    }
+})
