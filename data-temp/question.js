@@ -616,6 +616,58 @@ const questions = [
             ],
         },
     },
+    {
+        "id": 47,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Quel groupe de rap a été le premier à faire disque d'or en indé",
+            "choix": [
+                "Lunatic", "Assassin", "IAM", "Suprême NTM",
+            ],
+            "reponse": "Assassin",
+        },
+    },
+    {
+        "id": 48,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "En combien de jour le morceau « Bande Organisé » a été certifié disque de diamant",
+            "choix": [
+                "24", "30", "39", "45",
+            ],
+            "reponse": "39",
+        },
+    },
+    {
+        "id": 49,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Qui a dit « Je vais briser tes os, je vais boire ton sang »",
+            "choix": [
+                "Booba", "Rohff", "La Fouine", "Kaaris",
+            ],
+            "reponse": "Kaaris",
+        },
+    },
+    {
+        "id": 50,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "De quel pays est originaire la rappeuse Meryl",
+            "choix": [
+                "Guyane", "Martinique", "Réunion", "Mayotte",
+            ],
+            "reponse": "Martinique",
+        },
+    },
 ]
 
 const addQuestion = (question) => {
