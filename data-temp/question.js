@@ -325,7 +325,7 @@ const questions = [
             "choix": [
                 "Da Uzi", "Kalash Criminel", "Ixzo", "Dabs",
             ],
-            "reponse": "Soprano",
+            "reponse": "Dabs",
         },
     },
     {
@@ -456,6 +456,164 @@ const questions = [
                 "Hamza", "Kekra", "Laylow", "Kalash",
             ],
             "reponse": "Hamza",
+        },
+    },
+    {
+        "id": 35,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Qui a dit « J’gratte, j’gratte et la nuit, je me défoule contre tes textes. *CLAP CLAP* : C’est le bruit de mes boules contre tes fesses ! »",
+            "choix": [
+                "Nekfeu", "Jazzy Bazz", "Wojtek", "Logik Konstantine",
+            ],
+            "reponse": "Nekfeu",
+        },
+    },
+    {
+        "id": 36,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": " Qui n'a jamais participé aux « Hip Hop Symphonique »",
+            "choix": [
+                "Meryl", "Maes", "Dadju", "SCH",
+            ],
+            "reponse": "Dadju",
+        },
+    },
+    {
+        "id": 37,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Qui a dit « Elle a sa petite culotte qui fuit comme une piscine à débordement. »",
+            "choix": [
+                "Booba", "Alkapote", "Kaaris", "Salif",
+            ],
+            "reponse": "Kaaris",
+        },
+    },
+    {
+        "id": 38,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Qui présente l'émission « Rap Jeu »",
+            "choix": [
+                "Fif Tobossi", "Mehdi Maïzi", "Fred Musa", "Mouloud Achour",
+            ],
+            "reponse": "Mehdi Maïzi",
+        },
+    },
+    {
+        "id": 39,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "A qui Orelsan a-t-il refusé un feat",
+            "choix": [
+                "Guizmo", "Lorenzo", "Kalash Criminel", "BigFlo et Oli",
+            ],
+            "reponse": "BigFlo et Oli",
+        },
+    },
+    {
+        "id": 40,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Quel footballeur apparaît dans « Fais Moi La Passe » de Rohff",
+            "choix": [
+                "Karim Benzema", "Zinédine Zidane", "Thierry Henry", "Mathieu Valbuena",
+            ],
+            "reponse": "Karim Benzema",
+        },
+    },
+    {
+        "id": 41,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "En quelle année le premier « Planète Rap » a-t-il été diffusé",
+            "choix": [
+                "1993", "1996", "1999", "2002",
+            ],
+            "reponse": "1996",
+        },
+    },
+    {
+        "id": 42,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Avec qui Ninho n'a-t-il pas fait de feat",
+            "choix": [
+                "Dosseh", "Hiro", "Hornet La Frappe", "Hös Copperfield",
+            ],
+            "reponse": "Dosseh",
+        },
+    },
+    {
+        "id": 43,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Comment s'appelle le duo formé par Aldcide H et Dany Boss",
+            "choix": [
+                "D.Abuz System", "Serum", "La Cliqua", "Mo'vez Lang",
+            ],
+            "reponse": "Serum",
+        },
+    },
+    {
+        "id": 44,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Qui a sortit « L'NMIACCd'HTCK72KPDP »",
+            "choix": [
+                "MC Solaar", "Kery James", "Akhenaton", "Fabe",
+            ],
+            "reponse": "MC Solaar",
+        },
+    },
+    {
+        "id": 45,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Qui n'a jamais fait parti du label « Beat De Boul »",
+            "choix": [
+                "Zoxea", "Booba", "Salif", "Pirate",
+            ],
+            "reponse": "Pirate",
+        },
+    },
+    {
+        "id": 46,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "multiple",
+        "question": {
+            "intitule": "Qui sont les juges de l'émission « Rhythm + Flow »",
+            "choix": [
+                "Niska", "SCH", "Ninho", "Shay",
+            ],
+            "reponse": [
+                "Niska", "SCH", "Shay",
+            ],
         },
     },
 ]
