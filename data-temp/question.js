@@ -668,6 +668,45 @@ const questions = [
             "reponse": "Martinique",
         },
     },
+    {
+        "id": 51,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Qui est à l'origine des « Capsules »",
+            "choix": [
+                "Youv Dee", "Jok'Air", "Ico", "Krisy",
+            ],
+            "reponse": "Ico",
+        },
+    },
+    {
+        "id": 52,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Avec quel album Jul a-t-il eu son premier disque de diamant",
+            "choix": [
+                "My World", "L'Ovni", "Émotion", "Inspi d'ailleurs",
+            ],
+            "reponse": "My World",
+        },
+    },
+    {
+        "id": 53,
+        "theme": "rap_fr",
+        "mode": "solo",
+        "type_question": "fermee",
+        "question": {
+            "intitule": "Quel est le prénom de Niska",
+            "choix": [
+                "Florian", "Henry", "Stanislas", "Esteban",
+            ],
+            "reponse": "Stanislas",
+        },
+    },
 ]
 
 const addQuestion = (question) => {
