@@ -2,7 +2,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Lequel de ces rappeurs est originaire de Roubaix (59)",
         "choices": ["Seth Gueko", "ZKR", "Larry", "JNR"],
@@ -11,7 +10,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Lequel de ces rappeurs ne fait pas partit du Secteur Ä",
         "choices": ["Doc Gynéco", "Lino", "Le Rat Luciano", "Djamatik"],
@@ -20,7 +18,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Combien y a-t-il de rappeurs dans 13 Organisé",
         "choices": ["48", "50", "52", "54"],
@@ -29,7 +26,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Quel Media Rap a sorti un album en 2020",
         "choices": ["RAPLUME", "KULTURE", "BOOSKA-P", "RAPUNCHLINE"],
@@ -38,7 +34,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Quel rappeur est resté le plus longtemps du top 1 Spotify",
         "choices": ["Jul", "SCH", "Ninho", "Booba"],
@@ -47,7 +42,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Avec qui Alkapote n'a-t-il pas fait de feat",
         "choices": ["Bilal Hassani", "Freeze Corleone", "Kaaris", "Kalash"],
@@ -56,7 +50,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "multiple",
         "title": "Lesquels des ses rappeurs sont apparu dans un film",
         "choices": ["Kaaris", "Fianso", "Jok'Air", "Lefa"],
@@ -65,7 +58,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Quel rappeur a ouvert le Barlou Burger",
         "choices": ["MHD", "Georgio", "Seth Gueko", "Youssoupha"],
@@ -74,7 +66,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "A quel film fait référence le nom du média Booska-P",
         "choices": ["Scarface", "La Cité de Dieu", "La Haine", "Banlieu 13"],
@@ -83,7 +74,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Qui est à l'origine de cette phrase : « J’ai pris en stop la dame blanche au virage, j’l’ai mise en cloque »",
         "choices": ["Despo Rutti", "Alkapote", "Seth Gueko", "S.Pri Noir"],
@@ -92,7 +82,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Combien d'albums Jul a-t-il sortit",
         "choices": ["18", "19", "20", "21"],
@@ -101,7 +90,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Combien de sons compte « Chaise Pliante (Edition Deluxe) » d'Hatik",
         "choices": ["11", "29", "48", "56"],
@@ -110,7 +98,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "A quelle mannequin Ninho fait-il référence dans le morceau « Zipette »",
         "choices": ["Caroline de Maigret", "Camille Row", "Carla Bruni", "Marion Cotillard"],
@@ -119,7 +106,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Quel beatmaker est connu pour ses collaborations avec le rappeur Vald",
         "choices": ["Flem", "Junior Alaprod", "Seezy", "Pyroman"],
@@ -128,7 +114,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Quel rappeur a été comdamné à de la prison avec surcis pour avoir tourné un clip sur l'autoroute ",
         "choices": ["Koba LaD", "Sofiane", "MHD", "SCH"],
@@ -137,7 +122,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Quel rappeur a sortit le légendaire morceau « Sur La Tete De Ma Mère »",
         "choices": ["Seyfu", "Tragédie", "La Fouine", "L'Algérino"],
@@ -146,7 +130,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Quel acteur se cache sous le pseudonyme du rappeur « Fatal »",
         "choices": ["Franck Dubosc", "Gilles Lellouche", "Michaël Youn", "Max Boublil"],
@@ -155,7 +138,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Qui est à l'origine des morceaux « Journal Perso »",
         "choices": ["Maes", "Vald", "Diddie Trix", "Nekfeu"],
@@ -164,7 +146,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Combien de « Freestyle Ténébreux » Koba LaD a-t-il sortit",
         "choices": ["3", "4", "5", "6"],
@@ -173,7 +154,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Qui est le précurseur de l'Afro Trap en France",
         "choices": ["Y du V", "Madrane", "Niska", "MHD"],
@@ -182,7 +162,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Lequel de ces rappeurs n'est pas français",
         "choices": ["Frenetik", "Redk", "Sadek", "Da Uzi"],
@@ -191,7 +170,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Quel groupe culte de rap français a été condamné à 3 mois de prison ferme",
         "choices": ["IAM", "Suprême NTM", "Sages Poètes de la rue", "Fonky Family"],
@@ -200,7 +178,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "multiple",
         "title": "Quels rappeurs ont eu un concert annulé à cause de féministes",
         "choices": ["Orelsan", "Lorenzo", "Lefa", "Seth Gueko"],
@@ -209,7 +186,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Avec qui Nakk Mendosa n'a-t-il jamais fait de featuring",
         "choices": ["Soprano", "Médine", "Lino", "Dixon"],
@@ -218,7 +194,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Qui n'appraît pas dans le clip « Zidane » de 13 Block",
         "choices": ["Da Uzi", "Kalash Criminel", "Ixzo", "Dabs"],
@@ -227,7 +202,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Qui est le professeur Chen du rap français",
         "choices": ["Alkapote", "Freeze Corleone", "Nekfeu", "Damso"],
@@ -236,7 +210,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "D'où viens Maes",
         "choices": ["Évry", "Roubaix", "Sevran", "Toulouse"],
@@ -245,7 +218,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Quel est l'album avec le plus de certifications",
         "choices": ["PNL - Dans la légende", "Damso - Ispeité", "Booba - Trône", "Nekfeu - Cyborg"],
@@ -254,7 +226,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Quel rappeur a vendu le plus d'albums",
         "choices": ["Ninho", "Gims", "Nekfeu", "Jul"],
@@ -263,7 +234,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Qui a dit « La banlieu influence Paname, Paname influence le monde »",
         "choices": ["Lartiste", "Youssoupha", "Médine", "Alivor"],
@@ -272,7 +242,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Qui n'est pas présent dans « Grand Paris 2 » de Médine",
         "choices": ["Pirate", "Rémy", "Larry", "Sofiane"],
@@ -281,7 +250,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Qui est l'auteur de « Molotov 4 »",
         "choices": ["Seyfu", "Salif", "Sat", "Rohff"],
@@ -290,7 +258,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Quel groupe viens du département 94",
         "choices": ["Psy 4 de la Rime", "Mafia k'1 Fry", "Sexion d'Assaut", "Lunatic"],
@@ -299,7 +266,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Qui a sorti l'album « Perdu d'avance » en 2009",
         "choices": ["Nessbeal", "La Fouine", "Orelsan", "Busta Flex"],
@@ -308,7 +274,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Quel rappeur nomme-t-on le « Sauce God »",
         "choices": ["Hamza", "Kekra", "Laylow", "Kalash"],
@@ -317,7 +282,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Qui a dit « J’gratte, j’gratte et la nuit, je me défoule contre tes textes. *CLAP CLAP* : C’est le bruit de mes boules contre tes fesses ! »",
         "choices": ["Nekfeu", "Jazzy Bazz", "Wojtek", "Logik Konstantine"],
@@ -326,7 +290,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": " Qui n'a jamais participé aux « Hip Hop Symphonique »",
         "choices": ["Meryl", "Maes", "Dadju", "SCH"],
@@ -335,7 +298,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Qui a dit « Elle a sa petite culotte qui fuit comme une piscine à débordement. »",
         "choices": ["Booba", "Alkapote", "Kaaris", "Salif"],
@@ -344,7 +306,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Qui présente l'émission « Rap Jeu »",
         "choices": ["Fif Tobossi", "Mehdi Maïzi", "Fred Musa", "Mouloud Achour"],
@@ -353,7 +314,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "A qui Orelsan a-t-il refusé un feat",
         "choices": ["Guizmo", "Lorenzo", "Kalash Criminel", "BigFlo et Oli"],
@@ -362,7 +322,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Quel footballeur apparaît dans « Fais Moi La Passe » de Rohff",
         "choices": ["Karim Benzema", "Zinédine Zidane", "Thierry Henry", "Mathieu Valbuena"],
@@ -371,7 +330,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "En quelle année le premier « Planète Rap » a-t-il été diffusé",
         "choices": ["1993", "1996", "1999", "2002"],
@@ -380,7 +338,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Avec qui Ninho n'a-t-il pas fait de feat",
         "choices": ["Dosseh", "Hiro", "Hornet La Frappe", "Hös Copperfield"],
@@ -389,7 +346,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Comment s'appelle le duo formé par Aldcide H et Dany Boss",
         "choices": ["D.Abuz System", "Serum", "La Cliqua", "Mo'vez Lang"],
@@ -398,7 +354,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Qui a sortit « L'NMIACCd'HTCK72KPDP »",
         "choices": ["MC Solaar", "Kery James", "Akhenaton", "Fabe"],
@@ -407,7 +362,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Qui n'a jamais fait parti du label « Beat De Boul »",
         "choices": ["Zoxea", "Booba", "Salif", "Pirate"],
@@ -416,7 +370,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "multiple",
         "title": "Qui sont les juges de l'émission « Rhythm + Flow »",
         "choices": ["Niska", "SCH", "Ninho", "Shay"],
@@ -425,7 +378,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Quel groupe de rap a été le premier à faire disque d'or en indé",
         "choices": ["Lunatic", "Assassin", "IAM", "Suprême NTM"],
@@ -434,7 +386,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "En combien de jour le morceau « Bande Organisé » a été certifié disque de diamant",
         "choices": ["24", "30", "39", "45"],
@@ -443,7 +394,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Qui a dit « Je vais briser tes os, je vais boire ton sang »",
         "choices": ["Booba", "Rohff", "La Fouine", "Kaaris"],
@@ -452,7 +402,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "De quel pays est originaire la rappeuse Meryl",
         "choices": ["Guyane", "Martinique", "Réunion", "Mayotte"],
@@ -461,7 +410,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Qui est à l'origine des « Capsules »",
         "choices": ["Youv Dee", "Jok'Air", "Ico", "Krisy"],
@@ -470,7 +418,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Avec quel album Jul a-t-il eu son premier disque de diamant",
         "choices": ["My World", "L'Ovni", "Émotion", "Inspi d'ailleurs"],
@@ -479,7 +426,6 @@ const questions = [
     {
         "game": ["rapJeu"],
         "gameMode": ["rap_fr"],
-        "mode": "solo",
         "type": "fermee",
         "title": "Quel est le prénom de Niska",
         "choices": ["Florian", "Henry", "Stanislas", "Esteban"],
